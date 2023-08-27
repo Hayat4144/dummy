@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    background-color: #1976D2;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-form{
+    background-color: white;
+    padding: 1em;
+    border-radius: 6px;
+}
+
+.form-header{
+    margin-bottom: 1em; 
+    border-bottom: 1px solid gray;
+    padding-bottom: 0.8em;
+}
+
+input{
+    padding:6px 8px;
+    border-radius: 6px ;
+    border-width: 1px;
+    border: 1px solid gray;
+    margin-bottom: 1em;
+    outline: none;
+    /* color: #616161; */
+
+}
+
+.input input{
+    width: 100%;
+}
+
+.policy{
+    display: flex ;    
+    align-items: start ;
+}
+
+.policy .terms{
+    color: blue;
+}
+
+.btn{
+    padding: 8px 8px;
+    background-color: #1976D2;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size:16px;
+    text-transform: lowercase;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: transparent;
+}
